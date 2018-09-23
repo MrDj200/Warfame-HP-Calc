@@ -272,7 +272,7 @@
             this.trackBar1.TabIndex = 20;
             this.trackBar1.TickFrequency = 25;
             this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar1.Value = 85;
+            this.trackBar1.Value = 95;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // outputLabel6
@@ -369,7 +369,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Opacity = 0.86D;
+            this.Opacity = 0.95D;
             this.Text = "Shit Life calc";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
