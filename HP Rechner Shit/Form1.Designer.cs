@@ -45,6 +45,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.outputLabel5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
@@ -198,7 +199,7 @@
             // 
             this.outputLabel4.AutoSize = true;
             this.outputLabel4.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel4.Location = new System.Drawing.Point(128, 364);
+            this.outputLabel4.Location = new System.Drawing.Point(74, 336);
             this.outputLabel4.Name = "outputLabel4";
             this.outputLabel4.Size = new System.Drawing.Size(29, 20);
             this.outputLabel4.TabIndex = 16;
@@ -243,12 +244,23 @@
             this.trackBar1.Value = 85;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
+            // outputLabel5
+            // 
+            this.outputLabel5.AutoSize = true;
+            this.outputLabel5.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel5.Location = new System.Drawing.Point(12, 390);
+            this.outputLabel5.Name = "outputLabel5";
+            this.outputLabel5.Size = new System.Drawing.Size(64, 20);
+            this.outputLabel5.TabIndex = 21;
+            this.outputLabel5.Text = "Opacity";
+            // 
             // Form1
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(340, 456);
+            this.Controls.Add(this.outputLabel5);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
@@ -300,6 +312,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.Label outputLabel5;
     }
 }
 

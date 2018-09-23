@@ -35,7 +35,7 @@ namespace HP_Rechner_Shit
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
             Form1.ActiveForm.Opacity = trackBar1.Value / 100d;
-            outputLabel4.Text = trackBar1.Value.ToString();
+            outputLabel5.Text = $"Opacity: {trackBar1.Value}%";
         }
     }
 }

@@ -7,7 +7,7 @@
     <ProjectGuid>{E2B566C6-C043-4319-B543-B8E2EBB04226}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>HP_Rechner_Shit</RootNamespace>
-    <AssemblyName>HP Rechner Shit</AssemblyName>
+    <AssemblyName>Warframe HP Calculator</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
