@@ -50,18 +50,20 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(78, 22);
+            this.label1.Location = new System.Drawing.Point(83, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 20);
             this.label1.TabIndex = 2;
@@ -71,7 +73,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(45, 48);
+            this.label2.Location = new System.Drawing.Point(50, 30);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 20);
             this.label2.TabIndex = 4;
@@ -81,7 +83,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(64, 71);
+            this.label3.Location = new System.Drawing.Point(69, 53);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 20);
             this.label3.TabIndex = 6;
@@ -91,7 +93,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 115);
+            this.label4.Location = new System.Drawing.Point(17, 97);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(145, 20);
             this.label4.TabIndex = 8;
@@ -99,7 +101,8 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(171, 22);
+            this.numericUpDown1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.numericUpDown1.Location = new System.Drawing.Point(176, 4);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             -727379969,
             232,
@@ -122,7 +125,8 @@
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(171, 48);
+            this.numericUpDown2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.numericUpDown2.Location = new System.Drawing.Point(176, 30);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             -727379969,
             232,
@@ -145,7 +149,8 @@
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(171, 74);
+            this.numericUpDown3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.numericUpDown3.Location = new System.Drawing.Point(176, 56);
             this.numericUpDown3.Maximum = new decimal(new int[] {
             -727379969,
             232,
@@ -158,7 +163,8 @@
             // 
             // numericUpDown4
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(171, 115);
+            this.numericUpDown4.BackColor = System.Drawing.Color.Green;
+            this.numericUpDown4.Location = new System.Drawing.Point(176, 97);
             this.numericUpDown4.Maximum = new decimal(new int[] {
             -727379969,
             232,
@@ -183,7 +189,7 @@
             // 
             this.outputLabel2.AutoSize = true;
             this.outputLabel2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel2.Location = new System.Drawing.Point(41, 237);
+            this.outputLabel2.Location = new System.Drawing.Point(41, 224);
             this.outputLabel2.Name = "outputLabel2";
             this.outputLabel2.Size = new System.Drawing.Size(108, 20);
             this.outputLabel2.TabIndex = 14;
@@ -193,7 +199,7 @@
             // 
             this.outputLabel3.AutoSize = true;
             this.outputLabel3.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel3.Location = new System.Drawing.Point(8, 303);
+            this.outputLabel3.Location = new System.Drawing.Point(13, 276);
             this.outputLabel3.Name = "outputLabel3";
             this.outputLabel3.Size = new System.Drawing.Size(172, 20);
             this.outputLabel3.TabIndex = 15;
@@ -203,7 +209,7 @@
             // 
             this.outputLabel4.AutoSize = true;
             this.outputLabel4.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel4.Location = new System.Drawing.Point(1, 334);
+            this.outputLabel4.Location = new System.Drawing.Point(6, 307);
             this.outputLabel4.Name = "outputLabel4";
             this.outputLabel4.Size = new System.Drawing.Size(179, 20);
             this.outputLabel4.TabIndex = 16;
@@ -219,7 +225,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(191, 239);
+            this.textBox2.Location = new System.Drawing.Point(191, 226);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(137, 20);
@@ -227,7 +233,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(128, 155);
+            this.button1.Location = new System.Drawing.Point(133, 137);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 19;
@@ -237,7 +243,7 @@
             // 
             // trackBar1
             // 
-            this.trackBar1.Location = new System.Drawing.Point(12, 527);
+            this.trackBar1.Location = new System.Drawing.Point(12, 439);
             this.trackBar1.Maximum = 100;
             this.trackBar1.Minimum = 1;
             this.trackBar1.Name = "trackBar1";
@@ -252,7 +258,7 @@
             // 
             this.outputLabel6.AutoSize = true;
             this.outputLabel6.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel6.Location = new System.Drawing.Point(8, 518);
+            this.outputLabel6.Location = new System.Drawing.Point(8, 430);
             this.outputLabel6.Name = "outputLabel6";
             this.outputLabel6.Size = new System.Drawing.Size(64, 20);
             this.outputLabel6.TabIndex = 21;
@@ -262,7 +268,7 @@
             // 
             this.outputLabel5.AutoSize = true;
             this.outputLabel5.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel5.Location = new System.Drawing.Point(-3, 364);
+            this.outputLabel5.Location = new System.Drawing.Point(2, 337);
             this.outputLabel5.Name = "outputLabel5";
             this.outputLabel5.Size = new System.Drawing.Size(183, 20);
             this.outputLabel5.TabIndex = 22;
@@ -270,7 +276,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(186, 305);
+            this.textBox3.Location = new System.Drawing.Point(191, 278);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(137, 20);
@@ -278,7 +284,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(186, 334);
+            this.textBox4.Location = new System.Drawing.Point(191, 307);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(137, 20);
@@ -286,39 +292,49 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(186, 364);
+            this.textBox5.Location = new System.Drawing.Point(191, 337);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(137, 20);
             this.textBox5.TabIndex = 25;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.numericUpDown1);
+            this.panel1.Controls.Add(this.numericUpDown2);
+            this.panel1.Controls.Add(this.numericUpDown3);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.numericUpDown4);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(340, 169);
+            this.panel1.TabIndex = 26;
             // 
             // Form1
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(340, 607);
+            this.ClientSize = new System.Drawing.Size(340, 498);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.outputLabel5);
             this.Controls.Add(this.outputLabel6);
             this.Controls.Add(this.trackBar1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.outputLabel4);
             this.Controls.Add(this.outputLabel3);
             this.Controls.Add(this.outputLabel2);
             this.Controls.Add(this.outputLabel1);
-            this.Controls.Add(this.numericUpDown4);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -331,6 +347,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -359,6 +377,7 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
