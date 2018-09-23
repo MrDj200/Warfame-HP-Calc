@@ -45,7 +45,11 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.outputLabel6 = new System.Windows.Forms.Label();
             this.outputLabel5 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
@@ -189,21 +193,21 @@
             // 
             this.outputLabel3.AutoSize = true;
             this.outputLabel3.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel3.Location = new System.Drawing.Point(74, 300);
+            this.outputLabel3.Location = new System.Drawing.Point(8, 303);
             this.outputLabel3.Name = "outputLabel3";
-            this.outputLabel3.Size = new System.Drawing.Size(29, 20);
+            this.outputLabel3.Size = new System.Drawing.Size(172, 20);
             this.outputLabel3.TabIndex = 15;
-            this.outputLabel3.Text = "HP";
+            this.outputLabel3.Text = "Armor with Armor Buff";
             // 
             // outputLabel4
             // 
             this.outputLabel4.AutoSize = true;
             this.outputLabel4.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel4.Location = new System.Drawing.Point(74, 336);
+            this.outputLabel4.Location = new System.Drawing.Point(1, 334);
             this.outputLabel4.Name = "outputLabel4";
-            this.outputLabel4.Size = new System.Drawing.Size(29, 20);
+            this.outputLabel4.Size = new System.Drawing.Size(179, 20);
             this.outputLabel4.TabIndex = 16;
-            this.outputLabel4.Text = "HP";
+            this.outputLabel4.Text = "Effective Life with Buff";
             // 
             // textBox1
             // 
@@ -233,7 +237,7 @@
             // 
             // trackBar1
             // 
-            this.trackBar1.Location = new System.Drawing.Point(12, 399);
+            this.trackBar1.Location = new System.Drawing.Point(12, 527);
             this.trackBar1.Maximum = 100;
             this.trackBar1.Minimum = 1;
             this.trackBar1.Name = "trackBar1";
@@ -244,23 +248,61 @@
             this.trackBar1.Value = 85;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
+            // outputLabel6
+            // 
+            this.outputLabel6.AutoSize = true;
+            this.outputLabel6.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel6.Location = new System.Drawing.Point(8, 518);
+            this.outputLabel6.Name = "outputLabel6";
+            this.outputLabel6.Size = new System.Drawing.Size(64, 20);
+            this.outputLabel6.TabIndex = 21;
+            this.outputLabel6.Text = "Opacity";
+            // 
             // outputLabel5
             // 
             this.outputLabel5.AutoSize = true;
             this.outputLabel5.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputLabel5.Location = new System.Drawing.Point(12, 390);
+            this.outputLabel5.Location = new System.Drawing.Point(-3, 364);
             this.outputLabel5.Name = "outputLabel5";
-            this.outputLabel5.Size = new System.Drawing.Size(64, 20);
-            this.outputLabel5.TabIndex = 21;
-            this.outputLabel5.Text = "Opacity";
+            this.outputLabel5.Size = new System.Drawing.Size(183, 20);
+            this.outputLabel5.TabIndex = 22;
+            this.outputLabel5.Text = "Dmg Reduction with Buff";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(186, 305);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(137, 20);
+            this.textBox3.TabIndex = 23;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(186, 334);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(137, 20);
+            this.textBox4.TabIndex = 24;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(186, 364);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(137, 20);
+            this.textBox5.TabIndex = 25;
             // 
             // Form1
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(340, 456);
+            this.ClientSize = new System.Drawing.Size(340, 607);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.outputLabel5);
+            this.Controls.Add(this.outputLabel6);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
@@ -312,7 +354,11 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.Label outputLabel6;
         private System.Windows.Forms.Label outputLabel5;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }
 

@@ -11,5 +11,7 @@ namespace HP_Rechner_Shit
         public static double DmgReduction(int armor) => armor / (armor + 300d);
 
         public static double FakeLife(int life, int armor, int shield) => (life / (1 - DmgReduction(armor))) + shield;
+
+        public static double ArmorWithBuff(int buff, int armor) => ((buff / 100) + 1) * armor;
     }
 }
